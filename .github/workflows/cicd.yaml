@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_REGION: ap-northeast-2
-      ECR_REPOSITORY: my-dags
+      ECR_REPOSITORY: my-dags-repo
     steps:
       - name: Checkout
         uses: actions/checkout@v4
