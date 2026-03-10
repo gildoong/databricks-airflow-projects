@@ -18,5 +18,5 @@ helm upgrade $RELEASE_NAME apache-airflow/airflow \
 # Restart pods so new image is used
 kubectl delete pods -n $NAMESPACE --all
 
-# Port forward
+# Port forward 
 kubectl port-forward svc/$RELEASE_NAME-api-server 8080:8080 --namespace $NAMESPACE
