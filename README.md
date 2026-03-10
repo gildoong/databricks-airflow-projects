@@ -1,3 +1,6 @@
+<img width="1036" height="1025" alt="image" src="https://github.com/user-attachments/assets/b2449869-2d1e-4445-b957-62c6b83acbdc" />
+
+
 # Databricks-Airflow Projects
 
 Apache Airflow, Kubernetes, Helm, Kind, AWS ECR를 사용해 데이터 파이프라인을 로컬과 컨테이너 환경에서 운영하는 프로젝트입니다.  
